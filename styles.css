@@ -1,0 +1,327 @@
+* {
+    margin: 0 auto;
+}
+
+html,
+body {
+    background-color: #F5F6F8;
+}
+
+
+/* Header Desktop */
+
+.main-header {
+    background-color: #F5F6F8 !important;
+}
+
+.cover {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover h1 {
+    font-family: 'Caladea', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.cover p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 24px;
+}
+
+.cover .elipse1 {
+    width: 16px;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+}
+
+.cover .elipse2 {
+    width: 16px;
+    position: absolute;
+    top: 49%;
+    left: 16%;
+}
+
+.cover .elipse3 {
+    width: 16px;
+    position: absolute;
+    top: 78%;
+    left: 6%;
+}
+
+.cover .elipse4 {
+    width: 16px;
+    position: absolute;
+    top: 25%;
+    left: 96%;
+}
+
+.cover .elipse5 {
+    width: 16px;
+    position: absolute;
+    top: 50%;
+    left: 87%;
+}
+
+.cover .elipse6 {
+    width: 16px;
+    position: absolute;
+    top: 78%;
+    left: 95%;
+}
+
+
+/* Products Section */
+
+.products {
+    background-image: url('assets/products-background.png');
+    background-size: cover;
+    width: 100%;
+    height: 442px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 38%;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+    box-shadow: 0px 24px 32px rgba(126, 130, 139, 0.16);
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: -200px;
+    z-index: 50;
+}
+
+.product-card h1 {
+    font-family: 'Caladea', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.product-card img {
+    width: 329px;
+    padding-top: 16px;
+}
+
+.product-card p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 50%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.product-card button {
+    width: 183px;
+    height: 48px;
+    background: #ED704C;
+    box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.08);
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+.product-card button:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+
+/* Services Section */
+
+.services {
+    padding-top: 88px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    background-color: #FFF;
+    box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.08);
+    border-radius: 8px;
+}
+
+.service-card img {
+    width: 239px;
+}
+
+.service-card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.service-card div h1 {
+    font-family: 'Caladea', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.service-card div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.service-card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+
+.service-card2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 288px;
+    padding-left: 81px;
+    box-sizing: border-box;
+}
+
+.service-card2 div h2 {
+    font-family: 'Caladea', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.service-card2 div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 16px;
+    padding-bottom: 39px;
+}
+
+.service-card2 div button {
+    width: 183px;
+    height: 48px;
+    padding: 8px 16px;
+    background: #ED704C;
+    box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.16);
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    transition: all ease 0.5s;
+}
+
+.service-card2 div button:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+
+/* Testimonials */
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 120px;
+    padding-bottom: 94px;
+}
+
+.testimonial-card {
+    width: 30%;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #FFF;
+    box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.08);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 12px;
+}
+
+.testimonial-card h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ED704C;
+    margin: 0;
+}
+
+.testimonial-card p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707883;
+    padding-top: 8px 0;
+}
+
+.testimonial-card div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.testimonial-card div img {
+    width: 40px;
+}
+
+.testimonial-card div span {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ED704C;
+    padding-left: 8px;
+}
