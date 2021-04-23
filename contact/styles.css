@@ -25,6 +25,7 @@
 
 .adress {
     margin-bottom: 40px;
+    margin: 24px 0;
 }
 
 .adress span {
@@ -32,25 +33,20 @@
     font-size: 12px;
     line-height: 18px;
     padding-bottom: 8px;
+    font-weight: 700;
 }
 
-.adress h2 {
-    font-family: 'Caladea', serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    padding-bottom: 8px;
-}
-
-.adress p {
-    font-family: 'Caladea', serif;
+.adress h2, p {
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 28px;
+    font-weight: 300;
 }
 
 .whatsapp {
     margin: 0;
+    margin-left: 32px;
+    margin-top: 16px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -66,6 +62,29 @@
 .whatsapp-image img {
     width: 34px;
 }
+
+.whatsapp-info h2 {
+    font-family: 'Caladea', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.whatsapp-info p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.whatsapp-info span {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
 
 
 .form-container {
@@ -135,24 +154,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer CTA */
 
 .footer__cta {
@@ -171,8 +172,8 @@
     font-family: 'Caladea', serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 24px;
+    line-height: 32px;
     color: #E5E5E5;
     padding-bottom: 32px;
 }

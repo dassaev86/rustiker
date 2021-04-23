@@ -7,7 +7,7 @@
 }
 
 .services__intro-container {
-    width: 45%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -20,8 +20,8 @@
     font-family: 'Caladea', serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 24px;
+    line-height: 32px;
     padding-bottom: 15px;
 }
 
@@ -31,6 +31,7 @@
     font-size: 21px;
     line-height: 32px;
     padding-bottom: 40px;
+    margin: 0;
 }
 
 .services__intro-container button {
@@ -57,6 +58,7 @@
 
 .services__services-container-1 {
     width: 90%;
+    max-width: 1170px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -95,9 +97,11 @@
 
 .service-info p {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 24px;
+    margin: 0;
 }
 
 .service-info a {
@@ -110,6 +114,7 @@
 
 .services__services-container-2 {
     width: 80%;
+    max-width: 1040px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -142,6 +147,7 @@
 
 .services__services-container-3 {
     width: 80%;
+    max-width: 1040px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -173,6 +179,7 @@
 
 .services__services-container-4 {
     width: 90%;
+    max-width: 1170px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -219,6 +226,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 .testimonial-card {
@@ -258,6 +266,7 @@
 
 .card-info span {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     color: #707883;
@@ -269,6 +278,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 28px;
+    font-weight: 300;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -316,6 +326,50 @@
     cursor: pointer;
     transform: scale(1.15);
 }
+
+@media screen and (max-width: 900px) {
+
+    .testimonials-container {
+        justify-content: center;
+    }
+
+    .testimonial-card {
+        width: 45%;
+        margin: 8px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .testimonial-card {
+        width: 60%;
+        margin: 16px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .services__intro-container {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (min-width: 1301px) {
+
+    .services__services-container-1 {
+        margin-left: 10%;
+    }
+
+}
+
+
+
 
 
 

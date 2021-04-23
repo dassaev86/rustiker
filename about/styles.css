@@ -10,21 +10,37 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
+    max-width: 1170px;
     margin-bottom: 96px;
+}
+
+.about-card:nth-child(1) {
+    margin-left: 0%;
+    width: 90%;
 }
 
 .about-card .left {
     padding-left: 24px;
+    margin: 0;
 }
+
+/* .about-card:nth-child(1) .left {
+    padding-left: 42px;
+} */
 
 .about-card .rigth {
     padding-right: 24px;
+    margin: 0;
 }
 .about-card img {
     width: 504px;
     margin: 0;
+}
+
+.about-card:nth-child(1) img {
+    width: 690px;
 }
 
 .about-card h1 {
@@ -34,10 +50,211 @@
     font-size: 64px;
     line-height: 72px;
     padding-bottom: 24px;
+    white-space: pre;
 }
 
 .about-card p {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
 }
+
+.about-card:nth-child(1) p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+@media screen and (min-width: 1301px) {
+
+    .about-card:nth-child(1) {
+        margin-left: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 1175px) {
+
+    .about-card:nth-child(2) {
+        width: 90%;
+    }
+
+    .about-card:nth-child(3) {
+        width: 90%;
+    }
+
+    /* .about-card:nth-child(2) img {
+        width: 250px;
+        height: 400px;
+    } */
+
+    .about-card .rigth h1 {
+        font-size: 48px;
+        line-height: 56px;
+        /* white-space: unset; */
+    }
+
+    /* .about-card .rigth p {
+        font-size: 14px;
+        line-height: 20px;
+    } */
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .about-card:nth-child(1) img {
+        width: 520px;
+    }
+
+    .about-card:nth-child(2) img {
+        width: 375px;
+        height: 450px;
+    }
+
+    .about-card .rigth h1 {
+        font-size: 48px;
+        line-height: 56px;
+        /* white-space: unset; */
+    }
+
+    .about-card .rigth p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-card .left h1 {
+        font-size: 48px;
+        line-height: 56px;
+        white-space: unset;
+    }
+
+    .about-card .left p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .about-card:nth-child(1) img {
+        width: 390px;
+    }
+
+    .about-card h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .about-card:nth-child(1) p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .about-card:nth-child(2) img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .about-card .rigth h1 {
+        font-size: 40px;
+        line-height: 48px;
+        /* white-space: unset; */
+    }
+
+    .about-card .rigth p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-card:nth-child(3) img {
+        width: 350px;
+        height: 500px;
+    }
+
+
+    .about-card .left h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .about-card .left p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .about-card:nth-child(2) img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .about-card .rigth h1 {
+        font-size: 32px;
+        line-height: 40px;
+        /* white-space: unset; */
+    }
+
+    .about-card .rigth p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-card:nth-child(3) img {
+        width: 350px;
+        height: 600px;
+    }
+
+    .about-card .left h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about-card .left p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .about-card:nth-child(2) img {
+        width: 250px;
+        height: 400px;
+    }
+
+    .about-card .rigth h1 {
+        font-size: 26px;
+        line-height: 32px;
+        /* white-space: unset; */
+    }
+
+    .about-card .rigth p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about-card:nth-child(3) img {
+        width: 320px;
+        height: 640px;
+    }
+
+    .about-card .left h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about-card .left p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+

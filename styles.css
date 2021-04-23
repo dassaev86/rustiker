@@ -16,12 +16,12 @@ body {
 
 .cover {
     width: 100%;
-    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 150px;
 }
 
 .cover h1 {
@@ -44,50 +44,82 @@ body {
 .cover .elipse1 {
     width: 16px;
     position: absolute;
-    top: 25%;
+    top: -2%;
     left: 6%;
 }
 
 .cover .elipse2 {
     width: 16px;
     position: absolute;
-    top: 49%;
-    left: 16%;
+    top: 18%;
+    left: 15%;
 }
 
 .cover .elipse3 {
     width: 16px;
     position: absolute;
-    top: 78%;
-    left: 6%;
+    top: 53%;
+    left: 2%;
 }
 
 .cover .elipse4 {
     width: 16px;
     position: absolute;
-    top: 25%;
+    top: -2%;
     left: 96%;
 }
 
 .cover .elipse5 {
     width: 16px;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 87%;
 }
 
 .cover .elipse6 {
     width: 16px;
     position: absolute;
-    top: 78%;
+    top: 50%;
     left: 95%;
+}
+
+.cover .service-card2 {
+    width: 70%;
+    margin-left: 20%;
+    max-width: 910px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover .cover__main-image {
+    width: 376px;
+}
+
+
+.cover .service-card2 div h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.cover .service-card2 div p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.cover .cover__side-image {
+    width: 240px;
+    position: absolute;
+    top: 46%;
+    left: -17%;
 }
 
 
 /* Products Section */
 
-.products {
-    background-image: url('assets/products-background.png');
+.service1 {
+    background-image: url('assets/products-background2.png');
     background-size: cover;
     width: 100%;
     height: 442px;
@@ -97,61 +129,15 @@ body {
     align-items: center;
 }
 
-.product-card {
-    width: 38%;
-    height: 482px;
+.service3 {
+    background-image: url('assets/products-background.png');
+    background-size: cover;
+    width: 100%;
+    height: 442px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    background-color: #FFF;
-    box-shadow: 0px 24px 32px rgba(126, 130, 139, 0.16);
-    border-radius: 8px;
-    margin: 10px;
-    margin-top: -200px;
-    z-index: 50;
-}
-
-.product-card h1 {
-    font-family: 'Caladea', serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-}
-
-.product-card img {
-    width: 329px;
-    padding-top: 16px;
-}
-
-.product-card p {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    width: 50%;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 24px;
-}
-
-.product-card button {
-    width: 183px;
-    height: 48px;
-    background: #ED704C;
-    box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.08);
-    border-radius: 8px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    color: #FFFFFF;
-    transition: all ease 0.5s;
-}
-
-.product-card button:hover {
-    cursor: pointer;
-    transform: scale(1.15);
+    align-items: center;
 }
 
 
@@ -167,6 +153,8 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 70%;
+    max-width: 910px;
+    height: 280px;
     background-color: #FFF;
     box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.08);
     border-radius: 8px;
@@ -174,15 +162,15 @@ body {
 
 .service-card img {
     width: 239px;
+    margin: 0;
 }
 
 .service-card div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 335px;
-    padding: 24px;
+    align-items: flex-start;
+    height: 281px;
     box-sizing: border-box;
 }
 
@@ -190,17 +178,20 @@ body {
     font-family: 'Caladea', serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 32px;
+    line-height: 40px;
     text-align: center;
+    white-space: pre;
+    padding-bottom: 16px;
 }
 
 .service-card div p {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 28px;
+    font-weight: 300;
     text-align: center;
-    margin-top: 16px;
+    white-space: pre;
 }
 
 .service-card2 {
@@ -209,14 +200,19 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 80%;
+    max-width: 1040px;
     margin-top: 104px;
     margin-bottom: 104px;
+}
+
+.service-card2 img {
+    width: 447px;
 }
 
 .service-card2 div {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     height: 288px;
     padding-left: 81px;
@@ -235,6 +231,7 @@ body {
 .service-card2 div p {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+    font-weight: 300;
     line-height: 28px;
     padding-top: 16px;
     padding-bottom: 39px;
@@ -267,15 +264,16 @@ body {
 .testimonials-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     padding-top: 120px;
     padding-bottom: 94px;
 }
 
 .testimonial-card {
-    width: 30%;
+    width: 25%;
     height: 208px;
     display: flex;
     flex-direction: column;
@@ -322,6 +320,179 @@ body {
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    color: #ED704C;
     padding-left: 8px;
+}
+
+.footer-image {
+    width: 100%;
+    height: 368px;
+    background-image: url("assets/footer-img.png");
+    background-size: cover;
+    margin-top: 100px;
+}
+
+/* ACOMODO DE LA SIDE IMAGE */
+
+@media screen and (max-width: 1300px) {
+    .cover .cover__side-image {
+        left: -17%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .cover .cover__side-image {
+        left: -20%;
+    }
+}
+
+/* FIN ACOMODO DE LA SIDE IMAGE */
+
+@media screen and (max-width: 1024px) {
+
+    .cover .service-card2 {
+        width: 75%;
+        margin-left: 17.5%;
+    }
+
+    .cover .service-card2 div {
+        padding-left: 40px;
+    }
+
+    .service-card2 {
+        width: 90%;
+    }
+    .service-card2 div {
+        padding-left: 40px;
+    }
+
+    .service-card {
+        width: 80%;
+    }
+
+    .cover .cover__side-image {
+        left: -20%;
+    }
+
+    .testimonial-card {
+        height: 270px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .cover .service-card2 {
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+    .cover .cover__side-image {
+        left: -22%;
+    }
+
+    .testimonial-card {
+        width: 35%;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .cover .service-card2 {
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .cover h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    
+    .cover p {
+        font-size: 20px;
+    }
+
+    .cover .elipse3 {
+        top: 40%;
+    }
+
+    .cover .elipse6 {
+        top: 37%;
+    }
+
+    .cover .service-card2 div h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .cover .service-card2 div p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .service-card2 div button {
+        width: 150px;
+        height: 36px;
+        font-size: 16px;
+    }
+    
+    .cover .cover__main-image {
+        width: 300px;
+    }
+    
+
+    .cover .cover__side-image {
+        left: -20%;
+        width: 200px;
+    }
+
+    .service-card {
+        width: 85%;
+    }
+
+    .service-card2 {
+        width: 95%;
+    }
+
+    .service-card2 {
+        height: 225px;
+    }
+
+    .service-card2 div {
+        height: 225px;
+    }
+
+    .service-card2 img {
+        width: 350px;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+    .service-card div h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .service-card div p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .service-card {
+        width: 100%;
+    }
+
+    .cover .cover__side-image {
+        left: -24%;
+    }
 }

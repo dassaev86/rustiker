@@ -19,9 +19,10 @@
 
 .main-header__brand img {
     width: 100%;
+    min-width: 120px;
 }
 
-.main-header__menu  {
+.main-header__menu {
     margin-right: 10%;
 }
 
@@ -81,6 +82,7 @@
     line-height: 32px;
 }
 
+
 /* Footer */
 
 footer {
@@ -133,25 +135,39 @@ footer {
     height: 185px;
 }
 
-.footer-info2 p {
+.footer-info2 a {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
     margin: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-info2 a:hover {
+    cursor: pointer;
+    color: #ED704C;
 }
 
 .footer-info2 div {
     margin: 0;
 }
 
-.footer-info2 div p {
+.footer-info2 div a {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    display: block;
 }
 
+.footer-info2 div a:hover {
+    cursor: pointer;
+    color: #ED704C;
+}
 
 .footer-info3 {
     display: flex;
@@ -190,29 +206,82 @@ footer {
     border: none;
     margin: 0;
     transition: all ease 0.5s;
-    }
+}
 
-    .footer-info3 button img {
-        width: 21px;
-        margin: 0;
-    }
+.footer-info3 button img {
+    width: 21px;
+    margin: 0;
+}
 
-    .footer-info3 button:hover {
-        transform: scale(1.15);
-        cursor: pointer;
-    }
+.footer-info3 button:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
 
-    .footer-info3 div {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin: 0;
-    }
+.footer-info3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
 
-    .footer-info3 div img {
-        width: 24px;
-        margin-right: 17px;
-    }
+.footer-info3 div img {
+    width: 24px;
+    margin-right: 17px;
+    transition: all ease 0.5s;
+}
 
-  
+.footer-info3 div img:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+@media screen and (max-width: 800px) {
+    .main-header__menu li {
+        padding: 0 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer-info1 img {
+        width: 120px;
+    }
+    .footer-info1 p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .footer-info1 span {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-header__brand img {
+        min-width: 100px;
+    }
+    .main-header__menu li {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 10px;
+    }
+}
+
+.footer-info1 img {
+    width: 195px;
+    margin: 0;
+}
+
+.footer-info1 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer-info1 span {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}

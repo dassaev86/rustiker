@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../shared.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,700;1,700&display=swap" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Rustiker - Tienda</title>
 </head>
+
 <body>
 
     <header>
@@ -20,19 +22,25 @@
             </div>
             <div class="main-header__menu">
                 <ul>
-                    <li><a href="index.html">Productos</a></li>
+                    <li><a href="index.html">Tienda</a></li>
                     <li><a href="../services/index.html">Servicios</a></li>
-                    <li><a href="../about/index.html">Inspiración</a></li>
+                    <li><a href="../blog/index.html">Inspiración</a></li>
                     <li><a href="../contact/index.html">Contacto</a></li>
-                    <li><div></div></li>
-                    <li class="main-header__shopcart"> <a href="../blog/index.html"><img src="../assets/shopcart-icon.png" alt="Shopcart"> <p>0</p></a></li>
+                    <li>
+                        <div></div>
+                    </li>
+                    <li class="main-header__shopcart">
+                        <a href="#"><img src="../assets/shopcart-icon.png" alt="Shopcart">
+                            <p>0</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
 
     <section class="store">
-        <div class="store__main-cards-container">
+        <!-- <div class="store__main-cards-container">
             <div class="main-card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
                 <h1>Ceras</h1>
@@ -42,55 +50,87 @@
                 <h1>Patinas</h1>
                 <p>Envejece el aspecto del color aplicado, da apariencia natural de envejecimiento</p>
             </div>
-        </div>
+        </div> -->
 
         <div class="store__products-container">
             <div class="product_card">
-                <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Patina 2 Lt.</h2>
-                <p>$2000</p>
-                <p>Envejece el aspecto del color aplicado, da apariencia natural de envejecimiento</p>
+                <a href="item/index.html">
+                    <img src="assets/product-placeholder.png" alt="Main Image Product">
+                    <div class="card-info">
+                        <h2>Cera</h2>
+                        <p>Protege y da una textura suave al tacto renovando la superficie dando nuevamente vida a la madera.</p>
+                        <div class="prices-container">
+                            <p class="new-price">$336</p>
+                        </div>
+                    </div>
+                </a>
             </div>
+
             <div class="product_card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Cera 2 Lt.</h2>
-                <p>$2000</p>
-                <p>Cera rústica a base de agua libre de solventes nocivos</p>
+                <div class="card-info">
+                    <h2>Nombre</h2>
+                    <p>Descripción corta</p>
+                    <div class="prices-container">
+                        <p class="new-price">$Precio</p>
+                        <!-- <p class="old-price">$436</p> -->
+                    </div>
+                </div>
             </div>
+
             <div class="product_card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Polylaka</h2>
-                <p>$2000</p>
-                <p>Laca de poliuretano transparente mate, semi-mate y brillante de alta dureza y excelente resistencia</p>
+                <div class="card-info">
+                    <h2>Nombre</h2>
+                    <p>Descripción corta</p>
+                    <div class="prices-container">
+                        <p class="new-price">$Precio</p>
+                        <!-- <p class="old-price">$436</p> -->
+                    </div>
+                </div>
             </div>
+
             <div class="product_card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Pintura acrílica</h2>
-                <p>$2000</p>
-                <p>De alta resistencia, protege tu madera contra ralladuras y derrames de líquidos</p>
+                <div class="card-info">
+                    <h2>Nombre</h2>
+                    <p>Descripción corta</p>
+                    <div class="prices-container">
+                        <p class="new-price">$Precio</p>
+                        <!-- <p class="old-price">$436</p> -->
+                    </div>
+                </div>
             </div>
+
             <div class="product_card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Chalk paint</h2>
-                <p>$2000</p>
-                <p>Permite un fácil lijado, imitando efectos de desgaste y antigüedad</p>
+                <div class="card-info">
+                    <h2>Nombre</h2>
+                    <p>Descripción corta</p>
+                    <div class="prices-container">
+                        <p class="new-price">$Precio</p>
+                        <!-- <p class="old-price">$436</p> -->
+                    </div>
+                </div>
             </div>
+
             <div class="product_card">
                 <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Hidrocera</h2>
-                <p>$2000</p>
-                <p>Cera rústica a base de agua libre de solventes nocivos</p>
+                <div class="card-info">
+                    <h2>Nombre</h2>
+                    <p>Descripción corta</p>
+                    <div class="prices-container">
+                        <p class="new-price">$Precio</p>
+                        <!-- <p class="old-price">$436</p> -->
+                    </div>
+                </div>
             </div>
-            <div class="product_card">
-                <img src="assets/img_placeholder_main.png" alt="Main Image Product">
-                <h2>Sellador</h2>
-                <p>$2000</p>
-                <p>Tapa eficientemente el poro de la madera y permite buen lijado</p>
-            </div>
+
+
         </div>
 
         <div class="footer-image">
-            
+
         </div>
 
     </section>
@@ -103,17 +143,17 @@
                 <span>Todos los derechos reservados a Rustiker® 2021</span>
             </div>
         </div>
-    
+
         <div class="footer-info2">
-            <p>Productos</p>
+            <a href="index.html">Tienda</a>
             <div>
-                <p>Ceras</p>
-                <p>Patinas</p>
+                <a href="#">Ceras</a>
+                <a href="#">Patinas</a>
             </div>
-            <p>Nosotros</p>
-            <p>Servicios</p>
+            <a href="../about/index.html">Nosotros</a>
+            <a href="../services/index.html">Servicios</a>
         </div>
-    
+
         <div class="footer-info3">
             <h2>Contáctanos</h2>
             <button><img src="../assets/whatsapp-pen.png" alt="whatsapp">Whatsapp</button>
@@ -123,6 +163,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

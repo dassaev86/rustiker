@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../shared.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Rustiker - Tienda</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="main-header">
+            <div class="main-header__brand">
+                <a href="../../index.html"><img src="../../assets/rustiker-logo.png" alt="Rustiker"></a>
+            </div>
+            <div class="main-header__menu">
+                <ul>
+                    <li><a href="../../store/index.html">Tienda</a></li>
+                    <li><a href="../../services/index.html">Servicios</a></li>
+                    <li><a href="../../blog/index.html">Inspiración</a></li>
+                    <li><a href="../../contact/index.html">Contacto</a></li>
+                    <li>
+                        <div></div>
+                    </li>
+                    <li class="main-header__shopcart">
+                        <a href="#"><img src="../../assets/shopcart-icon.png" alt="Shopcart">
+                            <p>0</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="item">
+
+        <div class="item__information">
+            <div class="item__images-description">
+                <div class="item__images">
+                    <div class="main-image">
+                        <img src="assets/main-image.png" alt="Main Image">
+                    </div>
+                    <div class="preview-images">
+                        <img src="assets/prev-img1.png" alt="Preview Image">
+                        <img src="assets/prev-img2.png" alt="Preview Image">
+                        <img src="assets/prev-img3.png" alt="Preview Image">
+                        <img src="assets/prev-img3.png" alt="Preview Image">
+                    </div>
+                </div>
+
+                <div class="item__description">
+                    <h6>Cera</h6>
+                    <p>Elaborada con ingredientes naturales de la mas alta calidad, esto hace que se logre un brillo y una textura inigualable, penetra la madera hidratandola y protegiendola, devolviendole la vitalidd perdida a traves del tiempo.</p>
+
+                </div>
+            </div>
+
+            <div class="item__features">
+                <p>Selecciona color</p>
+                <div class="colors">
+                    <div class="color">
+                        <div class="color-option color-selected">
+                            <div class="color-circle" style="background-color: #79563C;"></div>
+                            <span>Nogal</span>
+                        </div>
+                        <div class="color-option">
+                            <div class="color-circle" style="background-color: #C39C73;"></div>
+                            <span>Natural</span>
+                        </div>
+                        <div class="color-option">
+                            <div class="color-circle" style="background-color: #AB815C;"></div>
+                            <span>Neutro</span>
+                        </div>
+                    </div>
+                </div>
+                <p>Presentación</p>
+                <div class="content-select">
+                    <select name="options" id="options">
+                        <option value="0">Seleccionar</option>
+                        <option value="1">Opción 1</option>
+                        <option value="2">Opción 2</option>
+                        <option value="3">Opción 3</option>
+                    </select>
+                    <img src="assets/down-arrow.png" alt="Arrow">
+                </div>
+                <p>Cantidad</p>
+                <input type="text" value="1">
+                <p class="price">$336</p>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div class="footer-image">
+
+    </div>
+
+    <footer>
+        <div class="footer-info1">
+            <img src="../../assets/rustiker-logo.png" alt="Rustiker">
+            <div>
+                <p>Aviso de Privacidad</p>
+                <span>Todos los derechos reservados a Rustiker® 2021</span>
+            </div>
+        </div>
+
+        <div class="footer-info2">
+            <a href="../../store/index.html">Tienda</a>
+            <div>
+                <a href="#">Ceras</a>
+                <a href="#">Patinas</a>
+            </div>
+            <a href="../../about/index.html">Nosotros</a>
+            <a href="../../services/index.html">Servicios</a>
+        </div>
+
+        <div class="footer-info3">
+            <h2>Contáctanos</h2>
+            <button><img src="../../assets/whatsapp-pen.png" alt="whatsapp">Whatsapp</button>
+            <div>
+                <img src="../../assets/instagram.png" alt="instagram">
+                <img src="../../assets/facebook.png" alt="facebook">
+            </div>
+        </div>
+    </footer>
+
+    <script src="item.js"></script>
+</body>
+
+</html>
