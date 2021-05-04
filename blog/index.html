@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Rustiker - Tienda</title>
 </head>
 
@@ -20,6 +21,16 @@
             <div class="main-header__brand">
                 <a href="../index.html"><img src="../assets/rustiker-logo.png" alt="Rustiker"></a>
             </div>
+
+            <div class="header__mobile-elements">
+                <div class="mobile-shopcart">
+                    <a href="#"><img src="../assets/shopcart-icon.png" alt="Shopcart">
+                        <p>0</p>
+                    </a>
+                </div>
+                <i class="fas fa-bars"></i>
+            </div>
+
             <div class="main-header__menu">
                 <ul>
                     <li><a href="../store/index.html">Tienda</a></li>
@@ -37,6 +48,32 @@
                 </ul>
             </div>
         </div>
+
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="mobile-nav__item">
+                    <a href="index.html"><img src="../assets/rustiker-logo.png" alt="Rustiker"></a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="../store/index.html">Tienda</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="../services/index.html">Servicios</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="index.html">Inspiración</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="../contact/index.html">Contacto</a>
+                </li>
+                <li>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com" target="_blank"><img src="../assets/instagram.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com" target="_blank"><img src="../assets/facebook.png" alt="facebook"></a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <section class="blog">
@@ -104,7 +141,7 @@
         </div>
 
         <div class="footer-info2">
-            <a href="../store/index.html">Tienda</a>
+            <a href="../store/index.html">Productos</a>
             <div>
                 <a href="#">Ceras</a>
                 <a href="#">Patinas</a>
@@ -123,6 +160,7 @@
         </div>
     </footer>
 
+    <script src="../custom.js"></script>
 </body>
 
 </html>

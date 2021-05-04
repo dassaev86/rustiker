@@ -2,6 +2,14 @@
     margin: 0 auto;
 }
 
+.main-header {
+    width: 100vw !important;
+}
+
+.mobile-nav {
+    width: 100vw !important;
+}
+
 .contact {
     margin-top: 170px;
 }
@@ -36,7 +44,8 @@
     font-weight: 700;
 }
 
-.adress h2, p {
+.adress h2,
+p {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -83,9 +92,6 @@
     font-size: 12px;
     line-height: 24px;
 }
-
-
-
 
 .form-container {
     display: flex;
@@ -146,7 +152,6 @@
     margin-top: 24px;
     transition: all ease 0.5s;
 }
-
 
 .form-container form .input-button:hover {
     cursor: pointer;

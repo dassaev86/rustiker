@@ -2,6 +2,14 @@
     margin: 0 auto;
 }
 
+.main-header {
+    width: 100vw !important;
+}
+
+.mobile-nav {
+    width: 100vw !important;
+}
+
 .item {
     margin-top: 200px;
 }
@@ -94,6 +102,7 @@
     margin: 0;
     cursor: pointer;
 }
+
 .color .color-circle {
     width: 40px;
     height: 40px;
@@ -113,37 +122,40 @@
     line-height: 28px;
 }
 
+
 /* Código del Select */
 
-.content-select select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+.content-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
+
 /* Eliminamos la fecha que por defecto aparece en el desplegable */
+
 .content-select select::-ms-expand {
     display: none;
 }
 
-.content-select{
-	max-width: 192px;
-	position: relative;
+.content-select {
+    max-width: 192px;
+    position: relative;
     margin: 0;
 }
- 
+
 .content-select select {
-	display: inline-block;
-	width: 100%;
-	cursor: pointer;
-  	padding: 8px;
-  	outline: 0; 
-  	border: 0;
-	border-radius: 0;
-	background: #FFF;
-	color: #000;
-	font-size: 14px;
-	color: #000;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #FFF;
+    color: #000;
+    font-size: 14px;
+    color: #000;
     border: 0.5px solid #ccc;
     font-family: 'Lato', sans-serif;
     position: relative;
@@ -155,14 +167,13 @@
 .content-select select:hover {
     cursor: pointer;
 }
- 
 
-.content-select img{
-	position: absolute;
-	right: 10px;
-	top: calc(50% - 9px);
+.content-select img {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 9px);
 }
- 
+
 
 /* FIN Código del Select */
 
@@ -218,7 +229,6 @@
     margin-top: 300px;
 }
 
-
 @media screen and (max-width: 1024px) {
     .item__information {
         width: 90%;
@@ -229,7 +239,6 @@
     .item__information {
         width: 80%;
     }
-
     .item__images-description {
         width: 75%;
         display: flex;
@@ -238,38 +247,30 @@
         align-items: flex-start;
         margin: 0;
     }
-
     .item__images {
         width: 100%;
     }
-
     .main-image {
         margin: 0;
         margin-bottom: 16px;
     }
-
     .preview-images {
         margin: 0;
     }
-
     .item__description {
         width: 80%;
         margin: 0;
         padding-top: 32px;
     }
-
     .item__features {
         width: 25%;
     }
-
 }
 
 @media screen and (max-width: 750px) {
-
     .item__images-description {
         width: 70%;
     }
-
     .item__features {
         width: 30%;
     }

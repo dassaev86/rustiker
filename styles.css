@@ -5,6 +5,7 @@
 html,
 body {
     background-color: #F5F6F8;
+    overflow-x: hidden;
 }
 
 
@@ -165,6 +166,14 @@ body {
     margin: 0;
 }
 
+.service3 .service-card img:nth-child(1) {
+    display: block;
+}
+
+.service3 .service-card img:nth-child(2) {
+    display: none;
+}
+
 .service-card div {
     display: flex;
     flex-direction: column;
@@ -183,6 +192,7 @@ body {
     text-align: center;
     white-space: pre;
     padding-bottom: 16px;
+    white-space: pre;
 }
 
 .service-card div p {
@@ -192,6 +202,14 @@ body {
     font-weight: 300;
     text-align: center;
     white-space: pre;
+}
+
+.service1-mobile {
+    display: none;
+}
+
+.service-mobile2 {
+    display: none;
 }
 
 .service-card2 {
@@ -237,6 +255,19 @@ body {
     padding-bottom: 39px;
 }
 
+
+.service-card2 .services__desktop-text {
+    display: block;
+}
+
+.service-card2 .services__mobile-text {
+    display: none;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre;
+}
+
 .service-card2 div button {
     width: 183px;
     height: 48px;
@@ -260,6 +291,10 @@ body {
 
 
 /* Testimonials */
+
+.card {
+    display: none;
+}
 
 .testimonials-container {
     display: flex;
@@ -495,4 +530,295 @@ body {
     .cover .cover__side-image {
         left: -24%;
     }
+}
+
+
+/* Mobile Version */
+
+@media screen and (max-width: 600px) {
+
+    .cover .elipse1 {
+        display: none;
+    }
+
+    .cover .elipse2 {
+        display: none;
+    }
+
+    .cover .elipse3 {
+        display: none;
+    }
+
+    .cover .elipse4 {
+        display: none;
+    }
+
+    .cover .elipse5 {
+        display: none;
+    }
+
+    .cover .elipse6 {
+        display: none;
+    }
+
+    
+    .cover {
+        width: 80%;
+        margin-top: 120px;
+    }
+
+    .cover h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .cover p {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .cover .service-card2 {
+        display: none;
+    }
+
+    .service1 {
+        background-image: none;
+        height: auto;
+    }
+
+    .service-card {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; */
+        width: 100%;
+        /* max-width: 910px;
+        height: 280px;
+        background-color: #FFF; */
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 16px;
+    }
+
+    .service-card div {
+        /* display: flex;
+        flex-direction: column; */
+        justify-content: flex-start;
+        /* align-items: flex-start;
+        height: 281px;
+        box-sizing: border-box; */
+    }
+    
+    .service-card img {
+        width: 50%;
+        height: 232px;
+    }
+
+    .service-card div h1 {
+        margin: 0;
+        white-space: unset;
+        padding: 0 20%;
+        padding-top: 24px;
+        line-height: 32px;
+    }
+
+    .service-card div p {
+        display: none;
+    }
+
+    .service1-mobile {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: center;
+        display: block;
+        margin-top: -30px;
+        padding: 0 16px;
+        white-space: pre;
+    }
+
+    .service-mobile2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .service-mobile2 h1 {
+        font-family: 'Caladea', serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 56px;
+    }
+
+    .service-mobile2 img {
+        width: 223px;
+        height: 150px;
+    }
+
+    .service-mobile2 h4 {
+        font-family: 'Caladea', serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 56px;
+    }
+
+    .service-mobile2 p {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        white-space: pre;
+        padding-bottom: 8px;
+        margin-top: -12px;
+    }
+
+    .service-mobile2 button {
+        width: 183px;
+        height: 48px;
+        padding: 8px 16px;
+        background: #ED704C;
+        box-shadow: 0px 16px 16px rgba(125, 56, 36, 0.16);
+        border-radius: 8px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: none;
+        margin: 0;
+        transition: all ease 0.5s;
+    }
+    
+    .service-mobile2 button:hover {
+        cursor: pointer;
+        transform: scale(1.15);
+    }
+
+    .services {
+        padding-top: 150px;
+    }
+    
+    .service-card2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .service-card2 img {
+        width:100%;
+    }
+    
+    .service-card2 div {
+        align-items: flex-start;
+        height: auto;
+        padding: 0;
+        padding-top: 24px;
+    }
+
+    .service-card2 div h2 {
+        padding-top: 24px;
+        padding-left: 16px;
+    }
+
+    .service-card2 div button {
+        margin: 0 auto;
+        width: 183px;
+        height: 48px;
+    }
+
+    .service-card2 .services__desktop-text {
+        display: none;
+    }
+
+    .service-card2 .services__mobile-text {
+        display: block;
+    }
+
+    .service3 {
+        padding-top: 150px;
+        background-image: none;
+        height: auto;
+        margin-top: 81px;
+    }
+
+    .service3 .service-card img:nth-child(1) {
+        display: none;
+    }
+    
+    .service3 .service-card img:nth-child(2) {
+        display: block;
+    }
+
+    .testimonials-container {
+        padding-top: 50px;
+    }
+
+    .testimonial-card {
+        width: 100%;
+    }
+
+    .footer-image {
+        display: none;
+    }
+
+    /* Slider Services */
+    .services .card {
+        position: relative;
+        display: block;
+        height: auto;
+    }
+
+    .services .slick-track {
+        margin-left: -20px !important;
+    }
+
+    .services .item {
+        padding: 15px;
+        outline: none;
+    }
+    .services .slick-list.draggable {
+        margin: 0 auto;
+        align-self: center;
+    }
+    .services .slick-slide {
+        width: 90vw;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-card {
+        width: 90%;
+    }
+    .services .slick-slide.slick-current {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .slick-dots {
+        padding: 0px;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #ED704C !important;
+    }
+
+    .slick-dots li button:before {
+        color: #575757 !important;
+        font-size: 16px !important;
+    }
+
+
+    /* Fin Slider Services */
+
 }

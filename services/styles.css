@@ -2,6 +2,14 @@
     margin: 0 auto;
 }
 
+.main-header {
+    width: 100vw !important;
+}
+
+.mobile-nav {
+    width: 100vw !important;
+}
+
 .services {
     margin-top: 170px;
 }
@@ -106,7 +114,8 @@
 
 .service-info a {
     margin: 0;
-    font-family: 'Lato', sans-serif;    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     color: #ED704C;
@@ -144,7 +153,6 @@
     margin-right: 24px;
 }
 
-
 .services__services-container-3 {
     width: 80%;
     max-width: 1040px;
@@ -175,7 +183,6 @@
     box-sizing: border-box;
     margin-left: 24px;
 }
-
 
 .services__services-container-4 {
     width: 90%;
@@ -239,9 +246,11 @@
     border: 0.2px solid hsla(215, 8%, 48%, 0.5);
     box-sizing: border-box;
 }
+
 .testimonial-card .card-img {
     width: 100%;
 }
+
 .testimonial-card img {
     width: 100%;
 }
@@ -271,7 +280,6 @@
     line-height: 28px;
     color: #707883;
     margin: 0;
-
 }
 
 .card-info p {
@@ -282,6 +290,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 
 /* Footer CTA */
 
@@ -328,48 +337,31 @@
 }
 
 @media screen and (max-width: 900px) {
-
     .testimonials-container {
         justify-content: center;
     }
-
     .testimonial-card {
         width: 45%;
         margin: 8px;
     }
-
 }
 
 @media screen and (max-width: 700px) {
-
     .testimonial-card {
         width: 60%;
         margin: 16px;
     }
-
 }
 
-
-
 @media screen and (max-width: 800px) {
-
     .services__intro-container {
         width: 90%;
         margin-left: 10%;
     }
-
 }
 
 @media screen and (min-width: 1301px) {
-
     .services__services-container-1 {
         margin-left: 10%;
     }
-
 }
-
-
-
-
-
-
